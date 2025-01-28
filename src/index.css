@@ -1,0 +1,8 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.right-section::-webkit-scrollbar{
+    display: none;
+  }

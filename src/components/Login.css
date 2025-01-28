@@ -1,0 +1,119 @@
+
+
+   .login-container {
+    display: flex;
+    height: 100vh;
+  }
+
+  
+  .left-section {
+    flex: 1;
+    background: url('https://via.placeholder.com/400x600') no-repeat center center;
+    background-size: cover;
+  }
+  
+  .right-section {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f8f9fa;
+    overflow-y: auto;
+  }
+
+  .right-section::-webkit-scrollbar{
+    display: none;
+  }
+
+  .top-buttons {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  display: flex;
+  gap: 10px;
+}
+
+.signup-button,
+.login-button {
+  border: none;
+  background: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.signup-button {
+  color: #555;
+}
+
+.signup-button:hover {
+  text-decoration: underline;
+}
+
+.login-button {
+  background-color: #0056b3;
+  color: white;
+  padding: 5px 15px;
+  border-radius: 5px;
+}
+
+.login-button:hover {
+  background-color: #003f8a;
+
+}
+  
+  .form-container {
+    width: 80%;
+    max-width: 400px;
+    text-align: center;
+  }
+  
+  .form-container h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .input-field {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .register-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .register-button:hover {
+    background-color: #0056b3;
+  }
+  
+  p {
+    margin-top: 10px;
+    color: #555;
+  }
+  
+  p a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  p a:hover {
+    text-decoration: underline;
+  }
+  
+  .background-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  

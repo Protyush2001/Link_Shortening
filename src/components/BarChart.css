@@ -1,0 +1,47 @@
+.bar-chart {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    flex: 1;
+    margin: 10px;
+  }
+  
+  .chart-title {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .chart-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .chart-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .chart-label {
+    width: 80px;
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .bar-container {
+    flex-grow: 1;
+    background: #e0e0e0;
+    height: 8px;
+    border-radius: 4px;
+    margin: 0 10px;
+    overflow: hidden;
+  }
+  
+  .bar {
+    height: 100%;
+    background: #0056d2;
+  }
+  

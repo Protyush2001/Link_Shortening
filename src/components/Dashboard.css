@@ -1,0 +1,50 @@
+/* .dashboard {
+    padding: 20px;
+    background: #f9f9f9;
+  }
+  
+  .charts-container {
+    display: flex;
+    justify-content: space-between;
+  } */
+
+
+  .dashboard-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+  
+  .main {
+    display: flex;
+    flex: 1;
+  }
+  
+  .sidebar {
+    width: 200px;
+  }
+  
+  .dashboard-content {
+    flex: 1;
+    padding: 20px;
+    background: #f9f9f9;
+  }
+  
+  .total-clicks {
+    margin-bottom: 20px;
+  }
+  
+  .total {
+    font-size: 32px;
+    color: #0056d2;
+    font-weight: bold;
+  }
+  
+  .charts {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  
+  
+  

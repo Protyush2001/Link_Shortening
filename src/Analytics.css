@@ -1,0 +1,17 @@
+.analytics-page {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+  
+  .analytics-content {
+    display: flex;
+    flex: 1;
+  }
+  
+  .analytics-table-wrapper {
+    flex: 1;
+    padding: 20px;
+    background-color: #f9fafb;
+  }
+  
