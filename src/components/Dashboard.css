@@ -1,4 +1,4 @@
-/* .dashboard {
+.dashboard {
     padding: 20px;
     background: #f9f9f9;
   }
@@ -6,7 +6,7 @@
   .charts-container {
     display: flex;
     justify-content: space-between;
-  } */
+  }
 
 
   .dashboard-container {
@@ -47,4 +47,4 @@
   
   
   
-  
+ 
