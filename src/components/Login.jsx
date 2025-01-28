@@ -19,7 +19,7 @@ const Login = ({ clearUserData }) => {
     e.preventDefault();
 
     try {
-      const response = await axios.post("http://localhost:5009/login", formData, {
+      const response = await axios.post("https://link-shortening-backend.onrender.com/login", formData, {
         headers: { "Content-Type": "application/json" },
       });
 

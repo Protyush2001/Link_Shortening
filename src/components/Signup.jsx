@@ -55,7 +55,7 @@ const handleSubmit = async (e) => {
     }
   
     try {
-      const response = await axios.post("http://localhost:5009/signup", formData);
+      const response = await axios.post("https://link-shortening-backend.onrender.com/signup", formData);
   
       if (response.status === 201) { // Success status
         alert("Signup successful");

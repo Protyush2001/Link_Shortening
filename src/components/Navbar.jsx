@@ -24,7 +24,7 @@ const Navbar = ({ setData }) => {
       }
 
       try {
-        const response = await axios.get("http://localhost:5009/api/user", {
+        const response = await axios.get("https://link-shortening-backend.onrender.com/api/user", {
           headers: { Authorization: `Bearer ${token}` },
         });
 

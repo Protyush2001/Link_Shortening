@@ -1,0 +1,1 @@
+export const baseUrl = "https://link-shortening-backend.onrender.com"
