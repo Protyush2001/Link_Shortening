@@ -89,7 +89,7 @@ const handleSubmit = async (e) => {
             <button type="submit" className="register-button">Register</button>
           </form>
           <p>
-            Already have an account? <a href="/login" onClick={() => navigate("/login")}>Login</a>
+
           </p>
         </div>
       </div>
